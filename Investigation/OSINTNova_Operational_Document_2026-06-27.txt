@@ -1,0 +1,269 @@
+=================================================
+OPERATIONAL DOCUMENT — OSINTNOVA INVESTIGATION
+=================================================
+Document ID: OSINTNOVA-OP-2026-06-27
+Classification: Public / Community Intelligence
+Status: Active Investigation
+Date Issued: 2026-06-27
+Prepared By: Concerned Observer (WinterGate-IC)
+=================================================
+
+
+1. EXECUTIVE SUMMARY
+=================================================
+
+This document summarizes the findings of an open‑source investigation into OSINTNova (app.osintnova.com), a commercial OSINT platform offering a suite of intelligence services including breach intelligence, people/phone/vehicle lookup, crypto wallet tracking, dark web access, and social media scraping.
+
+The investigation identified multiple red flags and potential violations of federal and state laws, including:
+- 18 U.S.C. § 1030 (CFAA) — unauthorized access via scraping
+- 18 U.S.C. § 1039 — sale of confidential phone records
+- California Civil Code § 1724 — sale of data obtained via crime
+- CCPA/CPRA — sale of PII without consent or opt‑out
+- FTC Act § 5 — deceptive trade practices
+
+Affiliated individuals were identified: "Goofisded" (Philippines, confirmed staff/head of OSINTNova) and "galacticpuffin" (Ryan, developer of NOVA OSINT platform, potential founder/developer). Geolocation through time patterns points to Philippines for Goofisded; others remain unidentified.
+
+Actions taken: formal ticket submitted (withdrawn), public GitHub repository created (WinterGate-IC/OSINTNova), community notifications issued, and regulatory escalation is underway.
+
+This document serves as the operational record of all findings, timelines, and next steps.
+
+---
+
+2. OBJECTIVES
+=================================================
+
+- Document OSINTNova's service offerings and assess legal compliance
+- Identify platform operators and affiliates
+- Gather evidence of potential violations
+- Notify the security community
+- Escalate to regulators if warranted
+- Maintain a public record for transparency
+
+---
+
+3. TARGET PLATFORM: OSINTNOVA
+=================================================
+
+3.1 Basic Information
+
+- Primary Domain: https://app.osintnova.com
+- Alternate Domain: osint.nova-saas.com
+- Description: "AI-powered OSINT platform for advanced digital investigations and intelligence analysis"
+- Trust Score: 66/100 (Scamadviser)
+- Domain Age: Recently registered ("very young")
+- Traffic: Low Tranco rank — small/niche
+- Hosting: Vercel (global CDN)
+- SSL: Valid
+
+3.2 Service Inventory (as listed on site)
+
+- BREACH INTELLIGENCE PRO
+- CRYPTO WALLET PRO
+- DARK WEB INTELLIGENCE PRO
+- DISCORD INTELLIGENCE PRO
+- DOMAIN INTELLIGENCE PRO
+- EMAIL INTELLIGENCE (1/MONTH)
+- GOOGLE DORKS (1/MONTH)
+- DORKGPT (1/MONTH)
+- HEADER ANALYSIS PRO
+- IMAGE ANALYSIS PRO
+- INTERNET ARCHIVE PRO
+- INSTAGRAM INTELLIGENCE PRO
+- FACEBOOK INTELLIGENCE PRO
+- IP INTELLIGENCE PRO
+- ORACLE (1/1)
+- PEOPLE INTELLIGENCE PRO
+- PHONE INTELLIGENCE PRO
+- STEAM INTELLIGENCE PRO
+- URL DETECTIVE PRO
+- USERNAME INTELLIGENCE PRO
+- VEHICLE INTELLIGENCE PRO
+- WHOAMI PRO
+- YOUTUBE INTELLIGENCE PRO
+
+3.3 Data Sources (inferred from public references)
+
+- BreachDirectory, HudsonRock, ProxyNova (for breach data)
+- Public records and data broker aggregations (People/Phone/Vehicle)
+- Blockchain analysis (Crypto Wallet)
+- Scraping of Discord, Instagram, Facebook, YouTube, Steam (ToS violations)
+- Dark web forums and ransomware blogs (Dark Web Intelligence)
+- Google dorks automation (DorkGPT)
+
+3.4 Legal Concerns by Service
+
+| Service | Primary Legal Issue |
+|---------|----------------------|
+| BREACH INTELLIGENCE | Sale of possibly breached data (CA Civ. Code §1724) |
+| PEOPLE/PHONE/VEHICLE | PII sales without consent (CCPA) |
+| PHONE INTELLIGENCE | 18 U.S.C. § 1039 (up to 10 years) |
+| CRYPTO WALLET | Financial surveillance / privacy invasion |
+| DARK WEB | Commercializing illicit data |
+| SOCIAL MEDIA (all) | CFAA / ToS violations (unauthorized scraping) |
+| ORACLE | Algorithmic doxing / profiling |
+| DORKGPT | Automated exposure of sensitive info |
+| WHOAMI | Comprehensive PII aggregation |
+
+---
+
+4. USER INTELLIGENCE
+=================================================
+
+4.1 Goofisded (goofisded)
+
+- Discord: Goof [オトテン] — roles: root (1305850539485167679), sudo (216284572244115456)
+- guns.lol: https://guns.lol/goofisded — location: Philippines (self‑reported)
+- GitHub: https://github.com/Goofisded
+  - Repos: netsniff (network monitor), SentinelPot (honeypot with Discord webhooks)
+- Self‑identified roles (from GitHub bio): "BosINT head of moderation. OSINTNova Head. BlackCord head staff. Chief of Projects Operation at First Decree."
+- Time pattern:
+  - All GitHub activity occurred between 2026-03-16 and 2026-03-28.
+  - Coding days: Monday‑Saturday, no commits on Sundays.
+  - This pattern is consistent with a Philippines timezone (UTC+8) where Sunday is a rest day.
+- Behaviour: Defensive, dismissive, timed out investigator, attempted to discredit legal concerns.
+- Connection to OSINTNova: Confirmed staff/head.
+
+4.2 galacticpuffin (Ryan)
+
+- GitHub: https://github.com/galacticpuffin
+- Project: NOVA OSINT Platform (full-stack OSINT platform)
+- Commit history: Only public commit on 2026-04-25 (Saturday) — architecture overview.
+- Education: Western Governors University (BS Cybersecurity), CompTIA Security+, ISC2 CC.
+- No location disclosed; website (galacticpuffin.com) unreachable.
+- Connection to OSINTNova: Name similarity ("NOVA") and platform function overlap; no direct affiliation confirmed, but high‑confidence lead.
+
+4.3 OSINTNova Founder (unidentified)
+
+- No public identification found.
+- Domain WHOIS is privacy‑protected.
+- No "About Us" or team page on site.
+- First public mention: LinkedIn post from "Nova SaaS" on 2025-08-28 (Thursday).
+- No other social media presence for the platform itself.
+
+---
+
+5. TIME PATTERN GEOLOCATION ANALYSIS
+=================================================
+
+5.1 Goofisded
+- All commits occurred Monday through Saturday; Sunday (2026-03-22, 2026-03-29) had no activity.
+- This excludes regions where Friday‑Saturday or Thursday‑Friday are weekends.
+- Possible locations: Philippines, Japan, Hong Kong, Taiwan (Saturday work day, Sunday rest).
+- Self‑reported "Phillipines" aligns with this pattern — HIGH confidence.
+
+5.2 galacticpuffin
+- Single commit day: Saturday, 2026-04-25. Insufficient data.
+- YouTube channel created: Monday, 2025-08-25. Not enough for geolocation.
+- No timezone inference possible — LOW confidence.
+
+5.3 OSINTNova platform
+- First mention: Thursday, 2025-08-28. A Thursday launch is common in Western markets but not conclusive.
+- Domain registration age unknown due to privacy protection.
+- No location inference — NONE confidence.
+
+---
+
+6. LEGAL CITATIONS (Full)
+=================================================
+
+6.1 Federal Statutes
+
+- 18 U.S.C. § 1030 (Computer Fraud and Abuse Act)
+  - Prohibits unauthorized access to protected computers.
+  - Web scraping that violates ToS has been held to constitute unauthorized access in federal courts (e.g., hiQ Labs v. LinkedIn).
+  - Applicable to OSINTNova's scraping of Discord, Instagram, Facebook, YouTube, Steam.
+
+- 18 U.S.C. § 1039 (Confidential Phone Records)
+  - Knowingly selling or attempting to sell confidential phone records without customer authorization is a crime.
+  - Penalty: up to 10 years imprisonment.
+  - OSINTNova's Phone Intelligence PRO falls squarely within this prohibition.
+
+- 18 U.S.C. § 1343 (Wire Fraud)
+  - If the platform misrepresents its data sources or uses deceptive means to obtain data, wire fraud charges may apply.
+
+6.2 State / Civil Laws
+
+- California Civil Code § 1724
+  - Unlawful to sell, or offer to sell, any data that was obtained or accessed pursuant to the commission of a crime.
+  - Breach Intelligence PRO, if it sells data from a breach, violates this statute regardless of third‑party intermediary claims.
+
+- California Consumer Privacy Act (CCPA/CPRA)
+  - Consumers must be notified at collection, given the right to know, delete, and opt out of the sale of their personal information.
+  - OSINTNova provides no prior notice, no opt‑out mechanism, and only a reactive blacklist (which does not satisfy CCPA).
+
+- Federal Trade Commission Act § 5
+  - Prohibits unfair or deceptive trade practices.
+  - Selling sensitive personal data without transparency or consent is a deceptive practice, as seen in FTC v. Kochava and similar actions.
+
+6.3 Platform Terms of Service Violations
+
+- Discord, Instagram, Facebook, YouTube, Steam all explicitly prohibit scraping.
+- These ToS violations also expose the platform to civil claims and CFAA liability.
+
+---
+
+7. TIMELINE OF EVENTS
+=================================================
+
+| Date/Time | Event |
+|-----------|-------|
+| 2025-08-28 | First public mention of "Nova SaaS" on LinkedIn |
+| 2025-08-25 | galacticpuffin YouTube channel created |
+| 2026-03-16 to 2026-03-28 | Goofisded active GitHub coding period |
+| 2026-04-25 | galacticpuffin commits architecture overview (NOVA repo) |
+| 2026-06-27, 03:41 | Initial concerns raised in Discord |
+| 2026-06-27, 03:57 | Legal framework explained |
+| 2026-06-27, 04:00 | Ticket submitted (#d0285330097141408f781e66c2e12902) |
+| 2026-06-27, 04:13 | Investigator timed out by Goofisded |
+| 2026-06-27, 04:39 | Ticket number DM'd to Goofisded |
+| 2026-06-27, 04:42 | ᗪ乇ㄥ乇ㄒ乇ᗪ and Goofisded respond defensively |
+| 2026-06-27, ~05:00 | GitHub repository created: WinterGate-IC/OSINTNova |
+| 2026-06-27, ~05:30 | Ticket response from support (vague, deferred to higher‑ups) |
+| 2026-06-27, ~06:00 | Ticket response withdrawn, action initiated |
+| Ongoing | Observation period continues (1‑2 weeks), community notification in progress |
+
+---
+
+8. ACTIONS TAKEN
+=================================================
+
+- Formal ticket submitted to OSINTNova support requesting clarification on data sources and consent.
+- Ticket response received; support deferred to "higher‑ups" and provided vague answers.
+- Ticket response request formally withdrawn; notice of independent action sent.
+- Public GitHub repository created: https://github.com/WinterGate-IC/OSINTNova
+  - Contains all documentation, red flags, legal analysis, user profiles, and time pattern data.
+- Community notices issued via Discord to warn users.
+- Security community notified via relevant channels (pending wider dissemination).
+- Evidence collection (screenshots, chat logs, service listings) archived.
+- Regulatory escalation in progress (FTC, California AG, DOJ).
+- Observation period set for 1‑2 weeks; further actions depend on platform response or lack thereof.
+
+---
+
+9. NEXT STEPS
+=================================================
+
+- Continue monitoring OSINTNova for any changes to services, terms, or data sources.
+- Follow up with regulators if no substantive clarification is provided.
+- Expand community outreach to OSINT and cybersecurity forums.
+- Continue analyzing time patterns of affiliated individuals as new data becomes available.
+- Monitor galacticpuffin's NOVA platform for public release; assess if it is the same or related project.
+- Maintain the GitHub repository as the central public record.
+- Prepare a formal complaint package for regulatory submission, including all evidence and legal citations.
+
+---
+
+10. APPENDICES
+=================================================
+
+A. Raw Service List (from platform)
+B. Raw User Profiles and Links
+C. Full Legal Citations (text)
+D. Chat Logs (excerpts)
+E. Ticket Correspondence (full exchange)
+F. Time Pattern Data Tables
+G. Screenshot Archive (external storage)
+
+---
+END OF DOCUMENT
+=================================================
