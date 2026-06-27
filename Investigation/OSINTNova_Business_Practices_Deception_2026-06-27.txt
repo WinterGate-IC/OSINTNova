@@ -1,0 +1,139 @@
+=================================================
+OSINTNOVA BUSINESS PRACTICES — DECEPTION & LEGAL VIOLATIONS
+=================================================
+Document ID: OSINTNOVA-BP-2026-06-27
+Classification: Public / Community Intelligence
+Status: Active Investigation
+Date Issued: 2026-06-27
+Prepared By: Concerned Observer (WinterGate-IC)
+=================================================
+
+
+1. EXECUTIVE SUMMARY
+=================================================
+
+OSINTNova (app.osintnova.com) operates as a commercial platform offering a suite of "intelligence" services that, in practice, monetize access to personally identifiable information (PII), breach‑derived data, phone records, vehicle registrations, cryptocurrency wallets, and scraped social media profiles — all without the consent of the individuals concerned. Despite marketing itself as an "AI‑powered OSINT platform," its business model is indistinguishable from that of a high‑risk data broker, and it engages in practices that appear to violate at least five federal and state laws.
+
+When confronted with a formal inquiry, OSINTNova support provided a response that was deliberately vague and evasive. They claimed their breach intelligence is sourced from a "lawful third‑party breach‑awareness dataset/API" — but refused to name the provider or explain how that provider obtained the data. They also stated that individuals are not notified in advance and that a "blacklist/removal process" exists — a reactive suppression mechanism that does not satisfy the CCPA's requirement for prior notice and an opt‑out before sale.
+
+This document dissects OSINTNova's business practices, exposes the deception in their public statements, and details the legal and ethical violations their platform enables.
+
+---
+
+2. BUSINESS MODEL OVERVIEW
+=================================================
+
+OSINTNova sells subscription‑based access to the following categories of intelligence:
+
+- Breach Intelligence — email/password exposure monitoring (claimed to be from a third‑party API).
+- People / Phone / Vehicle Intelligence — lookup of individuals by name, phone number, or VIN/license plate, returning personal contact details, addresses, and associations.
+- Crypto Wallet Intelligence — tracking and profiling cryptocurrency wallets.
+- Social Media Intelligence — scraping Discord, Instagram, Facebook, YouTube, and Steam for user data.
+- Dark Web Intelligence — monitoring and retrieving data from hidden markets and forums.
+- DorkGPT / Google Dorks — automating advanced search queries to uncover sensitive information.
+- Oracle — algorithmic behavioral profiling based on aggregated data.
+
+The platform does not display a privacy policy, terms of service, or any mechanism for data subjects to learn what information is held about them, how it was obtained, or how to opt out proactively. The only mention of removal is the "blacklist" process mentioned in their support ticket — which is a reactive step, available only upon request, and explicitly does not guarantee that the data will be removed from underlying sources.
+
+Revenue is generated through "PRO" subscriptions, with some features limited to 1 use per month. The platform has a low trust score (66/100) and a recently registered domain, consistent with a short‑term operation that prioritizes monetization over compliance.
+
+---
+
+3. SERVICE ANALYSIS — DECEPTIVE LABELING
+=================================================
+
+OSINTNova uses the term "OSINT" (Open Source Intelligence) to confer legitimacy on its services. However, legitimate OSINT relies on publicly available information that is intentionally made accessible to the general public — such as news articles, public records, and social media posts that are visible to anyone without bypassing access controls. OSINTNova's services, in contrast, rely on:
+
+- Data obtained from unauthorised breaches (if their third‑party source is itself a breach database — which they have not denied).
+- Data scraped from platforms that explicitly prohibit scraping (Discord, Instagram, Facebook, YouTube, Steam).
+- Data that is not "public" in any legal sense, such as confidential phone records (which are protected by 18 U.S.C. § 1039) and vehicle registration details that are not freely available to the public in most jurisdictions.
+
+By conflating "publicly accessible with effort" with "lawfully public," OSINTNova misleads its customers into believing they are conducting legal investigations, when in fact they may be complicit in illegal data trafficking.
+
+---
+
+4. ANALYSIS OF THEIR TICKET RESPONSE — DECEPTION CONFIRMED
+=================================================
+
+On 2026-06-27, OSINTNova support provided the following response to our inquiry:
+
+> "Is BREACH INTELLIGENCE PRO sourced from unauthorized data breaches? No, it is based on a lawful third-party breach-awareness dataset/API and is not intended to source or distribute unauthorized breach material."
+
+> "Are individuals notified and given the option to opt out? We do offer a blacklist/data removal process. A blacklist request asks OSINTNova to prevent a specific subject identifier from being searchable through our services where technically and operationally feasible. Please note that this is a removal/suppression mechanism, and it does not necessarily mean the person was notified in advance or that every data source supports opt-out."
+
+**Deception #1 — "Lawful third‑party dataset":**
+- The claim that the dataset is "lawful" is unsupported by any evidence. The provider is not named, so no independent verification is possible.
+- Even if the provider itself obtained the data without committing a crime, selling data that originated from a breach violates California Civil Code § 1724, which prohibits selling data "obtained or accessed pursuant to the commission of a crime." The chain of custody does not clean the data of its original illegality.
+- The phrase "breach‑awareness" is marketing spin — it implies the service merely alerts users to breaches, but OSINTNova's "PRO" offering suggests it provides access to the compromised data itself, which is not the same as a notification service (e.g., Have I Been Pwned provides free notifications, not paid access).
+
+**Deception #2 — "Blacklist/removal process":**
+- The blacklist is a reactive, opt‑out mechanism that only takes effect after the individual discovers that their data is being sold and makes a request. This is not "opt‑out" as defined by the CCPA, which requires that businesses provide a clear and conspicuous method for consumers to opt out **before** their data is sold.
+- The support message explicitly admits that individuals are **not** notified in advance, and that the blacklist does not guarantee removal from all sources. This confirms that OSINTNova does not obtain consent, does not provide prior notice, and has no meaningful way to comply with deletion requests.
+- This is a textbook violation of CCPA's notice and opt‑out requirements.
+
+**Deception #3 — "Other questions will be answered by higher‑ups":**
+- By deferring to "higher‑ups," the support team effectively confirmed that they are unable to articulate a defensible position on the remaining services (Phone Intelligence, Vehicle Intelligence, Social Media scraping, DorkGPT, Oracle). This suggests that those services are even more legally problematic, and the company is stalling.
+- The lack of a comprehensive, immediate response is itself an indication that the platform is not prepared to defend its practices.
+
+---
+
+5. LEGAL VIOLATIONS (CONFIRMED BY THEIR OWN STATEMENTS)
+=================================================
+
+The support response, while vague, confirms that:
+
+- Individuals are not notified in advance.
+- There is no proactive opt‑out, only a reactive blacklist.
+- They rely on third‑party data whose provenance is opaque.
+
+These admissions, combined with the service descriptions, establish the following violations:
+
+| Statute | Applicable Service | How Confirmed |
+|---------|-------------------|---------------|
+| **California Civil Code § 1724** — Sale of data obtained via crime | Breach Intelligence | Their "lawful third‑party" claim does not negate the original illegality; they failed to identify the source. |
+| **18 U.S.C. § 1039** — Sale of confidential phone records | Phone Intelligence | They did not deny selling phone records; they deferred answer. |
+| **CCPA/CPRA** — Sale of PII without prior consent/opt‑out | All PII‑related services (People, Phone, Vehicle) | They admitted no advance notification and only a reactive blacklist. |
+| **FTC Act § 5** — Deceptive trade practices | Entire platform | The term "OSINT" is misleading; their response is deliberately vague; they portray a reactive process as compliance. |
+| **CFAA (18 U.S.C. § 1030)** — Unauthorized access via scraping | Social Media Intelligence | They did not address this, but the services require scraping, which violates ToS and case law (hiQ Labs v. LinkedIn). |
+
+---
+
+6. CONSUMER HARM AND ETHICAL BREACHES
+=================================================
+
+OSINTNova's business practices cause direct harm to individuals:
+
+- **Loss of privacy**: Aggregating phone numbers, addresses, vehicle details, and financial wallet addresses into a single searchable database enables stalking, harassment, and identity theft.
+- **Disempowerment**: Victims have no way to know their data is being sold until they encounter the service themselves, and even then, the blacklist is not guaranteed to work.
+- **Exploitation of breach victims**: Selling access to breached data re‑victimizes individuals whose data was already stolen.
+- **Normalisation of surveillance**: By marketing these services as "OSINT," OSINTNova gives cover to unethical investigators and malicious actors.
+
+Ethically, the platform fails every principle of data justice: transparency, consent, and accountability.
+
+---
+
+7. CONCLUSION AND ACTIONS
+=================================================
+
+OSINTNova has confirmed, through its own support response, that it operates without prior consent, without meaningful opt‑out, and with opaque data sourcing. Their claims of "lawfulness" are unsupported and contradicted by the nature of the services they provide. Their deferral to "higher‑ups" is a stall tactic that exposes their inability to defend their business model.
+
+**Actions taken:**
+- Public GitHub repository created (WinterGate-IC/OSINTNova) with full documentation.
+- Community and security notifications issued.
+- Formal complaint package prepared for the FTC, California Attorney General, and DOJ.
+- Observation period continues; any further responses from OSINTNova will be added to the record.
+
+The platform's business practices are not just legally questionable — they are a direct threat to individual privacy and security. The public record will reflect that.
+
+---
+
+APPENDICES
+A. Full ticket exchange with OSINTNova support
+B. Screenshots of service listings
+C. Legal citations (full text)
+D. Time pattern and geolocation data
+E. Repository link: https://github.com/WinterGate-IC/OSINTNova
+
+---
+END OF DOCUMENT
+=================================================
