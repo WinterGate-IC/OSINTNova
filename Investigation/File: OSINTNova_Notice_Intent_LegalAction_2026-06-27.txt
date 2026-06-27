@@ -1,0 +1,59 @@
+=================================================
+NOTICE OF INTENT — LEGAL ACTION IF REQUIRED
+=================================================
+Document ID: OSINTNOVA-LEGAL-NOTICE-2026-06-27
+Classification: Formal Notice / Public Record
+Status: Active – Observation Period Ongoing
+Date Issued: 2026-06-27
+Issued By: Concerned Observer (WinterGate-IC)
+=================================================
+
+TO: OSINTNova Platform, its operators, affiliates, and associated individuals
+
+SUBJECT: NOTICE OF FORMAL OBSERVATION – POTENTIAL LEGAL ACTION
+
+This document serves as formal notice that we are actively monitoring OSINTNova's business practices and the conduct of its representatives. The investigation has identified multiple violations of federal and state law, as well as violations of platform Terms of Service.
+
+We are keeping a detailed record of all public statements, support responses, and behavioural patterns exhibited by your staff and affiliates (including, but not limited to, "Goofisded" and "ᗪ乇ㄥ乇ㄒ乇ᗪ"). Any attempts to dismiss, deflect, or undermine legitimate inquiries are being documented and may be used as evidence of malice or intent to conceal unlawful activity.
+
+SPECIFIC LEGAL CONCERNS:
+
+- 18 U.S.C. § 1030 (CFAA) – Unauthorised access via scraping
+- 18 U.S.C. § 1039 – Sale of confidential phone records (up to 10 years imprisonment)
+- California Civil Code § 1724 – Sale of data obtained via crime
+- California Consumer Privacy Act (CCPA/CPRA) – Sale of PII without prior consent or opt‑out
+- Federal Trade Commission Act § 5 – Unfair or deceptive trade practices
+
+Your support response on 2026-06-27 confirmed that:
+- Individuals are not notified in advance of data collection or sale.
+- Only a reactive "blacklist" process exists, which does not satisfy CCPA opt‑out requirements.
+- You rely on a third‑party breach dataset whose provenance you refused to disclose.
+
+These admissions, combined with the services you openly advertise, constitute a pattern of non‑compliance and deceptive practice.
+
+NOTICE:
+
+We are currently in an observation period of 1‑2 weeks. During this time, we are monitoring your platform, your communications, and any changes to your services or policies.
+
+If, by the end of this observation period, you have not provided a full, verifiable, and legally defensible explanation for all of the above concerns – including naming your breach data provider, confirming that all PII is sourced with consent, and implementing a proactive opt‑out mechanism compliant with CCPA – we will initiate formal legal action through the appropriate regulatory bodies (FTC, California Attorney General, DOJ).
+
+We will also escalate the matter to the relevant state Attorneys General and to the platform owners whose Terms of Service you violate (Discord, Instagram, Facebook, YouTube, Steam).
+
+Your current defensive posture and attempts to discredit investigators are being recorded and will be included in any future filings.
+
+We are not making threats – we are stating a clear course of action based on the evidence already gathered.
+
+You are welcome to respond with substantive, verifiable clarification. Silence or further deflection will be treated as an admission of wrongdoing.
+
+The public record is already established at:
+https://github.com/WinterGate-IC/OSINTNova
+
+This notice will be appended to the investigation files and shared with the security community.
+
+Sincerely,
+Concerned Observer
+WinterGate-IC
+
+---
+END OF DOCUMENT
+=================================================
