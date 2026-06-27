@@ -5,7 +5,6 @@
 ---
 
 ![Status](https://img.shields.io/badge/Status-Active_Investigation-red)
-![Last Updated](https://img.shields.io/badge/Last_Updated-2026--06--27-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
 ---
