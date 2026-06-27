@@ -1,0 +1,119 @@
+=================================================
+NOTICE OF RETALIATORY ACTION — ACCOUNT SUSPENSION
+=================================================
+Document ID: OSINTNOVA-RETALIATION-2026-06-27
+Classification: Public Record / Evidence
+Status: Documented
+Date Issued: 2026-06-27
+Prepared By: Concerned Observer (WinterGate-IC)
+=================================================
+
+1. INCIDENT SUMMARY
+=================================================
+
+On 2026-06-27 at approximately 02:57:09 PDT (09:57:09 UTC), the OSINTNova platform suspended the account of the investigator (WinterGate-IC) who had submitted a formal ticket (#d0285330097141408f781e66c2e12902) requesting clarification on data sourcing, consent, and legal compliance.
+
+The suspension occurred shortly after the investigator publicly documented red flags and legal violations, and after a series of defensive exchanges with platform representatives "Goofisded" and "ᗪ乇ㄥ乇ㄒ乇ᗪ" in the OSINTNova Discord server.
+
+This action was taken less than 24 hours after the initial inquiry was made, and immediately following the investigator's public notice of observation and documentation.
+
+---
+
+2. SUSPENSION DETAILS (as displayed to the user)
+=================================================
+
+Account Access Suspended
+
+Your OSINTNova account is currently suspended.
+
+If you believe this is a mistake, email dev@bosint.gg with the reference information below.
+
+User ID: wic.mailbox.temp@gmail.com
+Timestamp: 2026-06-27 02:57:09 PDT
+Client IP: 174.178.115.30
+
+---
+
+3. CONTEXT OF SUSPENSION
+=================================================
+
+The suspension was preceded by the following sequence of events:
+
+| Time (approx) | Event |
+|---------------|-------|
+| 2026-06-27, 03:41 UTC | Initial legal concerns raised in Discord |
+| 2026-06-27, ~04:00 UTC | Formal ticket submitted (#d0285330097141408f781e66c2e12902) |
+| 2026-06-27, ~04:13 UTC | Investigator timed out by Goofisded |
+| 2026-06-27, ~04:39 UTC | Ticket number DM'd to Goofisded as evidence |
+| 2026-06-27, ~04:42 UTC | ᗪ乇ㄥ乇ㄒ乇ᗪ and Goofisded engage defensively |
+| 2026-06-27, ~05:30 UTC | OSINTNova support responds (vague, defers to higher‑ups) |
+| 2026-06-27, ~05:50 UTC | Investigator continues requesting clarification |
+| 2026-06-27, 09:57 UTC | Account suspended |
+
+The suspension occurred **immediately after** the investigator declined to accept vague responses and continued to press for specific legal and operational details.
+
+---
+
+4. SIGNIFICANCE OF THE SUSPENSION
+=================================================
+
+The suspension is a **retaliatory action** taken against an individual who:
+- Asked legitimate questions regarding legal compliance.
+- Cited specific federal and state statutes.
+- Submitted a formal support ticket.
+- Publicly documented the platform's services and legal concerns.
+
+This action demonstrates that OSINTNova:
+- Is unwilling to engage in good‑faith transparency.
+- Prefers to silence critics rather than provide substantive answers.
+- May be attempting to prevent further scrutiny.
+
+**Legal implication:** Retaliatory suspension of a user who has raised good‑faith legal concerns can be used as evidence of bad faith and may be relevant in regulatory proceedings and civil litigation.
+
+---
+
+5. EVIDENCE PRESERVED
+=================================================
+
+The following evidence has been preserved:
+- Screenshot of the suspension notification (showing User ID, timestamp, client IP, and contact email).
+- Full chat logs from Discord exchanges.
+- Complete ticket correspondence (#d0285330097141408f781e66c2e12902).
+- Public repository at https://github.com/WinterGate-IC/OSINTNova containing all documentation.
+
+The client IP (174.178.115.30) has been logged for potential geolocation and forensic analysis.
+
+---
+
+6. STATUS AND NEXT STEPS
+=================================================
+
+- **Observation:** Continues, now from outside the platform.
+- **Documentation:** Updated to include this retaliatory action.
+- **Regulatory Escalation:** The suspension will be included in the formal complaint package to the FTC, California Attorney General, and DOJ as evidence of hostile response to lawful inquiry.
+- **Community Notification:** Already issued; this document will be appended to the public repository.
+
+The suspension does not halt the investigation. It only adds to the record.
+
+---
+
+7. CONCLUSION
+=================================================
+
+OSINTNova has chosen to suspend a user who raised lawful, documented concerns rather than address those concerns with transparent, verifiable answers. This action is consistent with a pattern of deflection and suppression observed throughout the interaction.
+
+The public record now includes not only the legal red flags and service issues, but also the platform's retaliatory response to good‑faith oversight.
+
+This document serves as formal notice that the suspension has been recorded and will be used in any future proceedings.
+
+---
+
+APPENDICES
+A. Screenshot of suspension notification
+B. Full chat log excerpts
+C. Ticket correspondence
+D. Repository link: https://github.com/WinterGate-IC/OSINTNova
+
+---
+END OF DOCUMENT
+=================================================
