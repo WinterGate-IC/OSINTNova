@@ -4,7 +4,7 @@
 
 ---
 
-![Status](https://img.shields.io/badge/Status-Active_Investigation-red)
+![Status](https://img.shields.io/badge/Status-Concluded_Investigation-red)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
 ---
