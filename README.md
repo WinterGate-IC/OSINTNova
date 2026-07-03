@@ -51,7 +51,7 @@
 | **Community Risk** | Enables doxing, stalking, harassment |
 | **Platform Transparency** | No visible privacy policy, ToS, or consent mechanisms |
 
-**Status:** 🔴 **Concluded Investigation — Observation Period Ongoing (1 Week)** `THIS NETWORK APPEARS TO SELL ACCESS TO PII DATA IN ITS **PRO** PLAN. `
+**Status:** 🔴 **Concluded Investigation — Observation Period Ongoing (1 Week)** `THIS NETWORK APPEARS TO SELL ACCESS TO PII DATA IN ITS` **PRO** `PLAN. `
 - **WARNING**: ``Purchasing from here may release your information to possible criminal actors!``
 
 ---
